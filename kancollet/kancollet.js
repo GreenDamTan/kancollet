@@ -305,3 +305,4 @@ var Kancollet = (function(){
 	ns.remove = removeKancollet;
 	return ns;
 }());
+Kancollet.create();
