@@ -7,11 +7,12 @@
     <meta name="description" content="Kancollet : 艦これの遠征・入渠・建造の終了を教えてくれるタイマー" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/mycss.css">
+	<script type="text/javascript" src="javascripts/main.js"></script>
     <title>Kancollet</title>
   </head>
 
-  <body>
+  <body onload="init()">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -21,9 +22,9 @@
           <h1 id="project_title">Kancollet</h1>
           <h2 id="project_tagline">艦これの遠征・入渠・建造の終了を教えてくれるタイマー</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/syusui-s/kancollet/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/syusui-s/kancollet/tarball/master">Download this project as a tar.gz file</a>
+            <section id="add_bookmark">
+				<a id="bookmarklet" href="javascript:(function(){var e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','http://syusui-s.github.io/kancollet/kancollet/kancollet.js');document.body.appendChild(e);}());">Kancollet</a>
+				<img id="drag_to_bookmarkbar" src="./images/drag_to_bookmarkbar.png">
             </section>
         </header>
     </div>
@@ -41,7 +42,7 @@
 
 <h3>
 <a name="%E4%BD%BF%E3%81%84%E6%96%B9" class="anchor" href="#%E4%BD%BF%E3%81%84%E6%96%B9"><span class="octicon octicon-link"></span></a>使い方</h2>
-<p>次のリンクをあなたのブックマークにドラック・アンド・ドロップして、Kancolletを追加しましょう。「<a href="javascript:(function(){var e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','http://syusui-s.github.io/kancollet/kancollet/kancollet.js');document.body.appendChild(e);}());" alt="Kancollet" id="kancollet-link">Kancollet</a>」</p>
+<p>次のリンクをあなたのブックマークにドラック・アンド・ドロップして、Kancolletを追加しましょう。「<a href="javascript:(function(){var e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','http://syusui-s.github.io/kancollet/kancollet/kancollet.js');document.body.appendChild(e);}());" alt="Kancollet">Kancollet</a>」</p>
 
 <ol>
 <li>ブックマーク（お気に入り）にKancolletを追加します。</li>
